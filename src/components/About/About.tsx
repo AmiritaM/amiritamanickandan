@@ -151,7 +151,7 @@ export function About() {
           <img
             src={Amirita2}
             alt="Amirita Manickandan"
-            style={{ width: "470px", height: "auto", borderRadius: "10%" }}
+            style={{ width: "375px", height: "auto", borderRadius: "10%" }}
           />
         </ScrollAnimation>
       </div>

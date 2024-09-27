@@ -58,7 +58,7 @@ export function Hero() {
           <img
             src={Illustration}
             alt="Ilustração"
-            style={{ width: "900px", height: "auto", borderRadius: "0%" }}
+            style={{ width: "500px", height: "auto", borderRadius: "0%" }}
           />
         </ScrollAnimation>
       </div>
