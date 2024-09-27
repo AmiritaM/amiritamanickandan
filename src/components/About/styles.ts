@@ -67,16 +67,19 @@ export const Container = styled.section`
     }
   }
 
+  /* For mobile screens */
   @media only screen and (max-width: 480px) {
     .about-image {
       max-width: 100%;
       margin-top: 6rem; /* Maintain the lower position on mobile */
+      
       img {
         margin-top: 2rem;
-        width: 100%;
+        width: 70%; /* Smaller image for mobile */
         filter: grayscale(0);
         transition: filter 0.5s;
         margin-left: 0; /* Reset margin for mobile */
+        
         &:hover {
           filter: none; /* Ensure hover works on mobile */
         }
@@ -84,6 +87,7 @@ export const Container = styled.section`
     }
   }
 
+  /* For tablets and smaller laptops */
   @media (max-width: 960px) {
     display: block;
     text-align: center;
@@ -95,12 +99,14 @@ export const Container = styled.section`
     .about-image {
       display: flex;
       max-width: 100%;
+
       img {
         margin-top: 6rem; /* Maintain the lower position */
-        width: 100%;
+        width: 80%; /* Smaller image for tablet screens */
         filter: grayscale(0);
         transition: filter 0.5s;
         margin-left: 0; /* Reset margin for mobile */
+        
         &:hover {
           filter: none;
         }
