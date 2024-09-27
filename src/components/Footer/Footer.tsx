@@ -7,7 +7,7 @@ import githubIcon from "../../assets/github.svg";
 export function Footer() {
   return (
     <Container className="footer">
-      <a href="https://amiritamanickandan.in" className="logo">
+      <a href="https://amiritam.github.io/amiritamanickandan/" className="logo">
         <span>www.amirita</span>
         <span>manickandan.in</span>
       </a>
