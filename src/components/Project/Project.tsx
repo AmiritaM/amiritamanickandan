@@ -1,89 +1,67 @@
 import { Container } from "./styles";
-import githubIcon from "../../assets/github.svg"
+import githubIcon from "../../assets/github.svg";
 // import DownloadApp from '../../assets/download.png'
-import externalLink from "../../assets/external-link.svg"
+import externalLink from "../../assets/external-link.svg";
+import ipatPresentaiton from "../../assets/IPaT Final Presentation.pdf";
+import landisPresentation from "../../assets/Amirita Manickandan - Internship Presentation.pdf";
+import MLProposal from "../../assets/Project Proposal (2).pdf";
 import ScrollAnimation from "react-animate-on-scroll";
-
 
 export function Project() {
   return (
     <Container id="project">
       <h2>My Projects</h2>
       <div className="projects">
-
         <ScrollAnimation animateIn="flipInX">
           <div className="project">
             <header>
-              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round"> <title>Folder</title> <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path> </svg>
-              <div className="project-links">
-                <a href="https://github.com/CodeVinayak/Serverless-Voting-Application" target="_blank" rel="noreferrer">
-                  <img src={githubIcon} alt="Visit site" /></a>
-                <a href="https://vote.vinayaksingh.com" target="_blank" rel="noreferrer">
-                  <img src={externalLink} alt="Visit site" />
-                </a> </div>
-            </header>
-            <div className="body">
-              <h3>Serverless Voting Application for Programming Languages</h3>
-              <p> Developed a serverless voting app using React, AWS Lambda, API Gateway, and DynamoDB, enabling users to view programming languages, cast votes, and access details through an interactive UI, leveraging serverless architecture for scalability and cost-efficiency. </p>
-            </div>
-            <footer> <ul className="tech-list"> <li>AWS Lambda</li> <li>API Gateway</li> <li>DynamoDB</li> </ul> </footer>
-          </div>
-        </ScrollAnimation>
-
-        <ScrollAnimation animateIn="flipInX">
-          <div className="project">
-            <header>
-              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " strokeWidth="1" strokeLinecap="round" strokeLinejoin="round"><title>Folder</title> <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path> </svg>
-              <div className="project-links">
-                <a href="https://github.com/CodeVinayak/AI-Chatbot-Assistant" target="_blank" rel="noreferrer">
-                  <img src={githubIcon} alt="Visit site" /> </a>
-                <a href="https://ai-chatbot-t8fn.onrender.com" target="_blank" rel="noreferrer">
-                  <img src={externalLink} alt="Visit site" /></a>
-              </div>
-            </header>
-            <div className="body">
-              <h3>GeniusBot: AI-Powered Assistance with PDF Insight</h3>
-              <p>
-                Developed an interactive chatbot application using Streamlit, OpenAI's GPT-3.5-turbo language model, and PyPDF2 for PDF text extraction, enabling users to ask context-based questions on uploaded PDFs and general queries.
-              </p>
-            </div>
-            <footer>
-              <ul className="tech-list">
-                <li>Streamlit</li>
-                <li>PyPDF2</li>
-                <li>LangChain</li>
-              </ul>
-            </footer>
-          </div>
-        </ScrollAnimation>
-
-        <ScrollAnimation animateIn="flipInX">
-          <div className="project">
-            <header>
-              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round">
+              <svg
+                width="50"
+                xmlns="http://www.w3.org/2000/svg"
+                role="img"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#ffffff"
+                strokeWidth="1"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
                 <title>Folder</title>
                 <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
               </svg>
               <div className="project-links">
-                <a href="https://github.com/CodeVinayak/Jupyter-Notebook/tree/main/Credit%20Risk%20Analysis" target="\_blank" rel="noreferrer">
-                  <img src={githubIcon} alt="Visit site" />
+                <a
+                  href="https://github.com/AmiritaM/IPaT"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img src={githubIcon} alt="GitHub" />
                 </a>
-                <a href="https://github.com/CodeVinayak/Jupyter-Notebook/blob/main/Credit%20Risk%20Analysis/Credit_Risk_Analysis.ipynb" target="\_blank" rel="noreferrer">
-                  <img src={externalLink} alt="Visit site" />
+                <a href={ipatPresentaiton} target="_blank" rel="noreferrer">
+                  <img src={externalLink} alt="External Link" />
                 </a>
               </div>
             </header>
             <div className="body">
-              <h3>Credit Risk Analysis Project</h3>
+              <h3>Aircraft Maintenance Augmented Reality App</h3>
               <p>
-                Developed a highly accurate credit risk classification model using XGBoost, achieving 100% precision, recall, and F1-scores for predicting loan defaults.Implemented rigorous data preprocessing, feature engineering, and hyperparameter tuning on imbalanced credit risk data, employing ensemble methods, cross-validation, and model interpretation techniques.
+                At the Institute of People and Technology, I designed and
+                developed an aircraft maintenance app for a major manufacturing
+                client, deployed on the Magic Leap 2 augmented reality headset.
+                The app enhanced user interaction through advanced features such
+                as hand-tracking, marker-tracking, and haptics, providing an
+                immersive experience for technicians. I also created a
+                low-fidelity demo using OpenXR, Unity3D, and C#, which
+                highlighted key functionalities like HUD canvas, hole selection,
+                and finger tracking. These improvements led to a 30% increase in
+                user interaction efficiency, optimizing the maintenance process
               </p>
             </div>
             <footer>
               <ul className="tech-list">
-                <li>XGBoost</li>
-                <li>Pandas</li>
-                <li>Matplotlib</li>
+                <li>Unity3D</li>
+                <li>C#</li>
+                <li>Magic Leap 2 Headset</li>
               </ul>
             </footer>
           </div>
@@ -92,56 +70,59 @@ export function Project() {
         <ScrollAnimation animateIn="flipInX">
           <div className="project">
             <header>
-              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
-              <div className="project-links">
-                <a href="https://github.com/CodeVinayak/MediBook-Medical-Appointment-Scheduler-with-Health-History" target="_blank" rel="noreferrer">
-                  <img src={githubIcon} alt="Visit site" />
-                </a>
-                <a href="https://medibook.vinayaksingh.com" target="_blank" rel="noreferrer">
-                  <img src={externalLink} alt="Visit site" />
-                </a>
-              </div>
-            </header>
-            <div className="body">
-              <h3>MediBook: Medical Appointment Scheduler with Health History</h3>
-              <p>Developed a secure medical appointment management platform with CRUD functionality, utilizing role-based access control, encryption techniques, and a robust MySQL database with normalized schema design and stored procedures for efficient scheduling, data privacy, and reliable retrieval of patient records.</p>
-            </div>
-            <footer>
-              <ul className="tech-list">
-                <li>PHP</li>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>MySQL</li>
-              </ul>
-            </footer>
-          </div>
-        </ScrollAnimation>
-
-        <ScrollAnimation animateIn="flipInX">
-          <div className="project">
-            <header>
-              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round">
-                <title>Code</title>
+              <svg
+                width="50"
+                xmlns="http://www.w3.org/2000/svg"
+                role="img"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#ffffff" /* Changed to white */
+                strokeWidth="1"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                <title>Folder</title>
                 <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
               </svg>
+
               <div className="project-links">
-                <a href="https://github.com/CodeVinayak/Real-Time-Hand-Gesture-Driven-3D-Object-Manipulation" target="_blank" rel="noreferrer">
+                <a
+                  href="https://github.com/AmiritaM/medusai_ableton_webcam"
+                  target="\_blank"
+                  rel="noreferrer"
+                >
                   <img src={githubIcon} alt="Visit site" />
                 </a>
-                <a href="https://youtu.be/NOm-3MynPLE" target="_blank" rel="noreferrer">
+                <a
+                  href="https://www.medus.ai/"
+                  target="\_blank"
+                  rel="noreferrer"
+                >
                   <img src={externalLink} alt="Visit site" />
                 </a>
               </div>
             </header>
             <div className="body">
-              <h3>Real-Time Hand Gesture-Driven 3D Object Manipulation</h3>
-              <p>Developed a real-time hand gesture recognition system for intuitive 3D object manipulation. Leveraged a multimodal approach integrating OpenCV for video processing, MediaPipe for hand detection/landmark extraction, and scikit-learn for machine learning model training. Achieved 95.2% accuracy in hand gesture classification with efficient real-time performance.</p>
+              <h3>Medusai</h3>
+              <p>
+                I developed a computer vision system using Python, OpenCV, and
+                YOLO to track hand movements, enabling real-time interaction
+                with a robotic string instrument. This system includes a feature
+                where the robotic arm performs an animated gesture in response
+                to string plucking, enhancing both user engagement and the
+                expressive capabilities of the instrument. Additionally, I
+                implemented UDP communication to transmit hand movement data,
+                dynamically adjusting the pitch based on the user's hand
+                position, creating an interactive and responsive musical
+                experience.
+              </p>
             </div>
             <footer>
               <ul className="tech-list">
+                <li>Python</li>
                 <li>OpenCV</li>
-                <li>MediaPipe</li>
-                <li>scikit-learn</li>
+                <li>YOLO</li>
+                <li>Ableton</li>
               </ul>
             </footer>
           </div>
@@ -150,25 +131,211 @@ export function Project() {
         <ScrollAnimation animateIn="flipInX">
           <div className="project">
             <header>
-              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+              <svg
+                width="50"
+                xmlns="http://www.w3.org/2000/svg"
+                role="img"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#ffffff" /* Changed to white */
+                strokeWidth="1"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                <title>Folder</title>
+                <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+              </svg>
+
               <div className="project-links">
-                <a href="https://velocityai.vinayaksingh.com/" target="_blank" rel="noreferrer">
+                <a
+                  href="https://github.com/AmiritaM/Credit-Card-Fraud-Detection"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img src={githubIcon} alt="Visit site" />{" "}
+                </a>
+                <a href={MLProposal} target="_blank" rel="noreferrer">
                   <img src={externalLink} alt="Visit site" />
                 </a>
               </div>
             </header>
             <div className="body">
-              <h3>VeloCityAI</h3>
+              <h3>Credit Card Fraud Detection</h3>
               <p>
-                VelocityAI is a website that allows users to get instant answers to any question and generate stunning AI pictures using OpenAI's GPT-3 and DALL-E model.With VelocityAI, users can type in text-based prompts and receive a corresponding response.
+                I led a credit card fraud detection initiative where I
+                implemented machine learning models including Decision Tree,
+                Deep Neural Networks (DNN), and Support Vector Machines (SVM).
+                The project involved addressing significant imbalanced data
+                challenges, which I resolved through advanced data preprocessing
+                techniques and precision optimization. These efforts led to the
+                successful deployment of models that achieved accuracy rates
+                exceeding 95%, demonstrating strong proficiency in model
+                implementation and fraud detection strategies.
               </p>
             </div>
             <footer>
               <ul className="tech-list">
-                <li>React</li>
-                <li>Typescript</li>
-                <li>Html</li>
-                <li>css</li>
+                <li>Machine Learning</li>
+                <li>Python</li>
+                <li>Jupyter Notebook</li>
+              </ul>
+            </footer>
+          </div>
+        </ScrollAnimation>
+        <ScrollAnimation animateIn="flipInX">
+          <div className="project">
+            <header>
+              <svg
+                width="50"
+                xmlns="http://www.w3.org/2000/svg"
+                role="img"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#ffffff" /* Changed to white */
+                strokeWidth="1"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                <title>Folder</title>
+                <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+              </svg>
+
+              <div className="project-links">
+                <a href={landisPresentation} target="_blank" rel="noreferrer">
+                  <img src={externalLink} alt="Visit site" />
+                </a>
+              </div>
+            </header>
+            <div className="body">
+              <h3>Database Script Migration Tool</h3>
+              <p>
+                At Landis+Gyr, I optimized data retrieval by 50% by migrating
+                meter parameters from JSON files to a PostgreSQL database,
+                supporting the deployment of over 20 million smart meters for
+                TEPCO. I implemented database connection logic in Visual Studio
+                using C# and object-oriented programming principles to enhance
+                state management and data handling efficiency. Additionally, I
+                automated the data migration from Oracle to PostgreSQL using a
+                PowerShell tool, tripling the migration speed by leveraging
+                PostgreSQL's COPY command, significantly reducing manual
+                workload. I also actively participated in Agile sprints,
+                contributing pull requests, reviewing code, and improving
+                overall code quality in collaboration with my team.
+              </p>
+            </div>
+            <footer>
+              <ul className="tech-list">
+                <li>SQL</li>
+                <li>Oracle</li>
+                <li>PostgreSQL</li>
+                <li>PowerShell</li>
+                <li>C#</li>
+                <li>VSCode</li>
+              </ul>
+            </footer>
+          </div>
+        </ScrollAnimation>
+
+        <ScrollAnimation animateIn="flipInX">
+          <div className="project">
+            <header>
+              <svg
+                width="50"
+                xmlns="http://www.w3.org/2000/svg"
+                role="img"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#ffffff" /* Changed to white */
+                strokeWidth="1"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                <title>Folder</title>
+                <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+              </svg>
+
+              <div className="project-links">
+                <a
+                  href="https://www.figma.com/proto/PU4az6MklofHA1vGRi9QYs/MixMentor-Prototype?node-id=0-1"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img src={externalLink} alt="Visit site" />
+                </a>
+              </div>
+            </header>
+            <div className="body">
+              <h3>MixMentor</h3>
+              <p>
+                I designed Mixmentor to be a comprehensive platform to simplify
+                music production for beginners by providing an intuitive,
+                simulated digital audio workstation (DAW). Through interactive
+                tutorials and creative challenges, I wanted to demystify complex
+                DAW interfaces, helping users develop foundational music
+                production skills. I prototyped the platform using Figma,
+                ensuring accessibility on laptops for an optimal user
+                experience. I also incorporated user feedback, integrating
+                features like live learning sessions and creative templates.
+                This project fosters creativity and empowers aspiring musicians
+                to start producing their own compositions confidently.
+              </p>
+            </div>
+            <footer>
+              <ul className="tech-list">
+                <li>Figma</li>
+                <li>User Testing</li>
+              </ul>
+            </footer>
+          </div>
+        </ScrollAnimation>
+
+        <ScrollAnimation animateIn="flipInX">
+          <div className="project">
+            <header>
+              <svg
+                width="50"
+                xmlns="http://www.w3.org/2000/svg"
+                role="img"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#ffffff" /* Changed to white */
+                strokeWidth="1"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                <title>Folder</title>
+                <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+              </svg>
+
+              <div className="project-links">
+                <a
+                  href="https://www.figma.com/proto/Xzdm8xu0krt20xXjIgWX2H/Duolingo-Prototype?node-id=58-47&starting-point-node-id=58%3A47"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img src={externalLink} alt="Visit site" />
+                </a>
+              </div>
+            </header>
+            <div className="body">
+              <h3>Duolingo Prototype</h3>
+              <p>
+                In this project, I enhanced the Duolingo user experience by
+                incorporating new features such as slang accessibility, social
+                sharing, music integration, and video-based learning. These
+                features align with Duolingo’s standards in terms of color,
+                font, and usability. Key improvements include clearer navigation
+                paths, clickable buttons, interactive performance insights, and
+                multimodal learning approaches to cater to various learning
+                styles. Personalized learning features were refined with
+                intentional color schemes and improved statistical displays,
+                creating a seamless and engaging platform for language learners.
+              </p>
+            </div>
+            <footer>
+              <ul className="tech-list">
+                <li>Figma</li>
+                <li>User Testing</li>
               </ul>
             </footer>
           </div>
@@ -295,7 +462,7 @@ export function Project() {
             </footer>
           </div>
         </ScrollAnimation> */}
-        
+
         {/* <ScrollAnimation animateIn="flipInX">
           <div className="project">
             <header>
@@ -320,7 +487,6 @@ export function Project() {
             </footer>
           </div>
         </ScrollAnimation> */}
-
       </div>
     </Container>
   );
