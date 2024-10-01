@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/amiritamanickandan/static/css/main.039bf95e.css",
-    "main.js": "/amiritamanickandan/static/js/main.76df7070.js",
+    "main.js": "/amiritamanickandan/static/js/main.7c8a9260.js",
     "static/media/IPaT Final Presentation.pdf": "/amiritamanickandan/static/media/IPaT Final Presentation.75805bf90e7681e5b56c.pdf",
     "static/media/about_uncropped.jpg": "/amiritamanickandan/static/media/about_uncropped.a74bca54005f7c430e62.jpg",
     "static/media/Amirita Manickandan - Internship Presentation.pdf": "/amiritamanickandan/static/media/Amirita Manickandan - Internship Presentation.d0394437c6ce5e507bc8.pdf",
@@ -29,10 +29,10 @@
     "static/media/linkedin.svg": "/amiritamanickandan/static/media/linkedin.4f00d78f67f451cf01173f7418aa186f.svg",
     "static/media/js-icon.svg": "/amiritamanickandan/static/media/js-icon.2d25723e91c8a9e057ae447ae6a73ecb.svg",
     "main.039bf95e.css.map": "/amiritamanickandan/static/css/main.039bf95e.css.map",
-    "main.76df7070.js.map": "/amiritamanickandan/static/js/main.76df7070.js.map"
+    "main.7c8a9260.js.map": "/amiritamanickandan/static/js/main.7c8a9260.js.map"
   },
   "entrypoints": [
     "static/css/main.039bf95e.css",
-    "static/js/main.76df7070.js"
+    "static/js/main.7c8a9260.js"
   ]
 }
